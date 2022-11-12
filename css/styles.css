@@ -14,47 +14,78 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 6em;
+    align-items: center;
+    justify-self: center;
 }
 
 .title {
     display: flex;
-    justify-content: center;
     margin: 2.3rem 0;
 }
 
 input {
     border-radius: 5px;
     height: 20px;
+    display: flex;
+}
+
+.cep input {
+    height: 30px;
+    padding: 0.2em;
+    border: 1px solid;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0);
+    display: flex;
+    justify-content: center;
+}
+
+.cep {
+    display: block;
+    justify-content: center;
+    top: 18em;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: absolute;
+}
+
+.grupo {
+    display: block;
+    justify-content: center;
+    margin: 35em;
+    align-items: center;
+    position: absolute;
+}
+
+.campo {
+    display: block;
+    justify-content: center;  
 }
 
 .botao {
     font-size: 1.1em;
     color: rgb(231, 25, 25);
     position: absolute;
-    top: 32%;
-    left: 48%;
+    top: 10.2em;
+    left: 31.5em;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    display: block;
 }
 
 .botao:hover {
     background: yellow;
     text-decoration: none;
     color: rgb(5, 1, 1);
-}    
-
-footer {
-    text-align: center;
-    color: black;
-    padding: 13rem;
 }
-@media screen and (max-width: 3840px) {
-    body, .cep, .grupo, .botao, .campo{
-        width: auto;
-    }
-    h1 {
-        text-align: center;
-    }
 
+.copyright {
+    padding: 4.5em;
+    font-size: 1.2em;
+    display: block;
+    text-align: center;
+    position: absolute; 
+	left: 45em; /* posiciona a 90px para a esquerda */ 
+	/*top: posiciona a 70px para baixo */
+    top: 49em;
 }
