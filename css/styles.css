@@ -1,55 +1,82 @@
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: 'Work Sans', sans-serif;
-    color: #000000;
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("/img/robô.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 58%;
+    font-size: 1em;
+    justify-content: center;
 }
-@media screen and (min-width: 100px){
-    
-    body {
 
-        font-family: 'Montserrat', sans-serif;
-        background-image: url("/img/robô.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        background-size: 62%;
+main {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 2.3rem 0;
+}
+
+fieldset {
+    border: 0;
+}
+
+.cep {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8rem;
+    margin-bottom: 10rem;
+    padding: 40px;
+}
+
+.botao {
+    font-size: 1em;
+    border-radius: 2em;
+    color: rgb(113, 4, 4);
+    position: absolute;
+    margin-right: -50%;
+    top: 32%;
+    left: 53.5%;
+    transform: translate(-100%, -52%);
+    margin: 0 2px 2px 0;
+    width: auto;
+    border: 2px solid transparent;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    width: auto;
+    padding: 0 1rem;
+
+}
+
+.botao:hover {
+    background-color: blue, rgba(255, 255, 255);
+    box-shadow: linear-gradient(blue, rgba(255, 255, 255));
+}
+
+.grupo {
+    font-size: 1em;
+    border-radius: 2em;
+    box-shadow: none;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    padding: 13rem;
+}
+@media screen and (max-width: 3840px) {
+    body, .cep, .grupo, .botao, .campo{
+        width: auto;
+    }
+    h1 {
+        text-align: center;
     }
 
-    main {
-        display: flex;
-        flex-direction: column;
-        margin-top: 3rem;
-    }
-
-    .center {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 2rem;
-        width: 50%;
-    }
-
-    .container {
-        display: flex;
-        justify-content: center;
-    }
-
-    .title,
-    .save {
-        display: flex;
-        justify-content: center;
-        margin: 2.3rem 0;
-    }
-
-    .caixadeentrada {
-        display: flex;
-        justify-content: center;
-    }
-
-    .cep {
-        margin-top: 1.8rem;
-        margin-bottom: 10rem;
-    }
 }
