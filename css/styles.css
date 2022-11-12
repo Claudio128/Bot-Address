@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url("/Bot-Address/img/robô.png");
+    background-image: url("/img/robô.png");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -18,12 +18,20 @@ body {
 main {
     display: flex;
     flex-direction: column;
+    margin-top: 5.5rem;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: 50%;
 }
 
 .container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
+    justify-content: center;
 }
 
 .title,
@@ -31,4 +39,14 @@ main {
     display: flex;
     justify-content: center;
     margin: 2rem 0;
+}
+
+.caixadeentrada{
+    display: flex;
+    justify-content: center;
+}
+
+.cep {
+    margin-top: 1.8rem;
+    margin-bottom: 8rem
 }
