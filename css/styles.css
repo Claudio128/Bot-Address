@@ -8,7 +8,7 @@
     color: #000000;
 }
 
-@media screen and (min-width: 1080px){
+@media screen and (min-width: 1300px){
     
     body {
         background-image: url("/img/robô.png");
@@ -54,3 +54,4 @@
         margin-bottom: 10rem;
     }
 }
+
