@@ -1,4 +1,5 @@
 body {
+    display: block;
     font-family: 'Montserrat', sans-serif;
     background-image: url("/img/robô.png");
     background-repeat: no-repeat;
@@ -7,10 +8,10 @@ body {
     background-size: 58%;
     font-size: 1em;
     justify-content: center;
+    overflow: hidden; /* hidden - remove as barras de rolagem lateral e vertical.overflow-y: hidden; /*Barra vertical! overflow-x: hidden; barra horizontal.*/
 }
 
 main {
-
     display: flex;
     flex-direction: column;
     margin-top: 5rem;
@@ -22,21 +23,33 @@ main {
     margin: 2.3rem 0;
 }
 
-fieldset {
-    border: 0;
+input, button {
+    border-radius: 5px;
+    height: 20px;
 }
 
-.cep {
-    display: flex;
-    justify-content: center;
-    margin-top: 1.8rem;
-    margin-bottom: 10rem;
-    padding: 40px;
+.cep{
+    text-decoration: none;
+}
+
+.cep input {
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 2);
+    display: block;
+    align-items: center;    
+}
+
+.campo input[type="text"],.campo input[type="number"], .cep {
+    padding: 0.2em;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 2);
+    display: block;
+    width: auto;
 }
 
 .botao {
     font-size: 1em;
-    border-radius: 2em;
     color: rgb(113, 4, 4);
     position: absolute;
     margin-right: -50%;
@@ -51,20 +64,13 @@ fieldset {
     flex: 0 0 auto;
     width: auto;
     padding: 0 1rem;
-
 }
 
 .botao:hover {
-    background-color: blue, rgba(255, 255, 255);
-    box-shadow: linear-gradient(blue, rgba(255, 255, 255));
-}
-
-.grupo {
-    font-size: 1em;
-    border-radius: 2em;
-    box-shadow: none;
-    text-align: center;
-}
+    background:rgb(113, 4, 4);
+    box-shadow: inset 2px 2px 2px black;
+    text-shadow: none;
+}    
 
 footer {
     text-align: center;
