@@ -17,13 +17,13 @@
         background-attachment: fixed;
         background-size: 62%;
     }
-    
+
     main {
         display: flex;
         flex-direction: column;
         margin-top: 3rem;
     }
-    
+
     .center {
         display: flex;
         flex-wrap: wrap;
@@ -31,24 +31,24 @@
         gap: 2rem;
         width: 50%;
     }
-    
+
     .container {
         display: flex;
         justify-content: center;
     }
-    
+
     .title,
     .save {
         display: flex;
         justify-content: center;
         margin: 2.3rem 0;
     }
-    
-    .caixadeentrada{
+
+    .caixadeentrada {
         display: flex;
         justify-content: center;
     }
-    
+
     .cep {
         margin-top: 1.8rem;
         margin-bottom: 10rem;
