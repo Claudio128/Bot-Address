@@ -8,7 +8,11 @@
     color: #000000;
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 1360px){
+=======
+@media screen and (min-width: 100px){
+>>>>>>> c83762eb3c9bbe066b4dee617478c67fc12e23f0
     
     body {
         background-image: url("/img/robô.png");
