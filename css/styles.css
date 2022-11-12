@@ -8,46 +8,49 @@
     color: #000000;
 }
 
-body {
-    background-image: url("/img/robô.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 62%;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    margin-top: 3rem;
-}
-
-.center {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    width: 50%;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-}
-
-.title,
-.save {
-    display: flex;
-    justify-content: center;
-    margin: 2.3rem 0;
-}
-
-.caixadeentrada{
-    display: flex;
-    justify-content: center;
-}
-
-.cep {
-    margin-top: 1.8rem;
-    margin-bottom: 8rem;
+@media screen and (min-width: 1080px){
+    
+    body {
+        background-image: url("/img/robô.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: 62%;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+    
+    .center {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        width: 50%;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .title,
+    .save {
+        display: flex;
+        justify-content: center;
+        margin: 2.3rem 0;
+    }
+    
+    .caixadeentrada{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .cep {
+        margin-top: 1.8rem;
+        margin-bottom: 10rem;
+    }
 }
