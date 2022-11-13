@@ -114,6 +114,7 @@ body {
     
     .title {
         margin-top: 2.5rem;
+        color: #ffffff;
     }
     
     input{
@@ -148,6 +149,7 @@ body {
         border-radius: 6px;
         font-weight: 500;
         color: var(--color);
+        cursor: pointer;
     }
     
     button:before {
@@ -176,7 +178,7 @@ body {
     }
     
     button:active:before {
-        background: #3a0ca3;
+        background: #000000;
         transition: background 0s;
     }
 
@@ -193,5 +195,13 @@ body {
 
     input::placeholder {
         padding: .5rem;
+    }
+
+    footer {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #ffffff;
     }
 }
