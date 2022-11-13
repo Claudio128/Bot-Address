@@ -117,8 +117,9 @@ body {
     }
     
     input{
+        border: none;
         border-radius: 5px;
-        height: 1.4rem;
+        height: 2rem;
         display: flex;
     }
 
@@ -127,7 +128,7 @@ body {
     }
 
     .cep {
-        margin-top: 2rem;
+        margin-top: 2.7rem;
         text-align: center;
     }
 
@@ -137,7 +138,7 @@ body {
         display: inline-block;
         width: 7em;
         line-height: 2em;
-        margin-top: 2rem;
+        margin-top: 3rem;
         position: relative;
         overflow: hidden;
         border: 2px solid var(--color);
@@ -181,12 +182,16 @@ body {
 
     .grupo {
         justify-content: center;
-        margin-top: 4rem;
+        margin-top: 3rem;
         align-items: center;
         border: none;
     }
 
+    .campo {
+        margin-top: .3rem;
+    }
+
     input::placeholder {
-        color: red;
+        padding: .5rem;
     }
 }
