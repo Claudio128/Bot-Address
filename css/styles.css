@@ -3,8 +3,8 @@ body {
     background-image: url("/img/robô.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
     background-size: 58%;
+    background-position-y: .8rem;
     overflow: hidden;  /* hidden - remove as barras de rolagem lateral e vertical.overflow-y: hidden; /*Barra vertical! overflow-x: hidden; barra horizontal.*/
 }
 
