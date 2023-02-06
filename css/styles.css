@@ -36,7 +36,7 @@
     }
 
     .cep {
-        margin-top: 6em;
+        margin-top: 3em;
         text-align: center;
     }
 
@@ -91,7 +91,7 @@
 
     .grupo {
         justify-content: center;
-        margin-top: 7em;
+        margin-top: 2em;
         align-items: center;
         border: none;
     }
