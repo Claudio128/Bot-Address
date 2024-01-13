@@ -13,6 +13,9 @@ const pesquisarCep = async() => {
     const response = await fetch(url);
     const dados = await response.json();
     preencherFormulario(dados);
+    if dados = undefined {
+        alerta ("CEP não encontrado!")
+    }
 }
 
 document.getElementById('botao').addEventListener('click', pesquisarCep);
